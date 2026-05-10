@@ -44,12 +44,15 @@
   }
   .card-body {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
   }
   .card-title {
     font-size: 1.25rem;
   }
   .card-text {
     margin-bottom: 15px;
+    flex-grow: 1;
   }
 
   .skills-section h2 {
@@ -169,7 +172,9 @@
                data-fr="Projet conjoint du Laboratoire des Sciences du Numérique de Nantes et de Yamaha Corporation, modélisant les relations acoustico-géométriques dans les instruments à vent à l'aide de simulations physiques et du machine learning.">
               Joint project by the Laboratoire des Sciences du Numérique de Nantes and Yamaha Corporation, modeling acoustic-geometric relationships in brass instruments using physics-based simulations and machine learning.
             </p>
-            <a href="docs/Paper_ISMA2026.pdf" class="btn btn-primary" target="_blank" data-en="Read Paper" data-fr="Lire l'article">Read Paper</a>
+            <div>
+              <a href="docs/Paper_ISMA2026.pdf" class="btn btn-primary" target="_blank" data-en="Read Paper" data-fr="Lire l'article">Read Paper</a>
+            </div>
           </div>
         </div>
       </div>
@@ -188,7 +193,9 @@
                data-fr="Système de recommandation de films full-stack développé avec FastAPI, Streamlit et DuckDB, utilisant de vraies données TMDB et Kaggle. Implémente un filtrage collaboratif via la factorisation matricielle SVD pour générer des prédictions personnalisées. Déployé avec une architecture microservices Docker Compose.">
               Full-stack movie recommendation system built with FastAPI, Streamlit, and DuckDB using real TMDB and Kaggle datasets. Implements collaborative filtering via SVD matrix factorization to generate personalized predictions. Deployed using a Docker Compose microservices architecture.
             </p>
-            <a href="https://github.com/MPayanM/MAURICIO-Homeflix.git" class="btn btn-secondary" target="_blank" data-en="Source Code" data-fr="Code Source">Source Code</a>
+            <div>
+              <a href="https://github.com/MPayanM/MAURICIO-Homeflix.git" class="btn btn-secondary" target="_blank" data-en="Source Code" data-fr="Code Source">Source Code</a>
+            </div>
           </div>
         </div>
       </div>
@@ -203,8 +210,10 @@
                data-fr="Application web Streamlit pour le suivi nutritionnel personnalisé. L'utilisateur renseigne ses données biométriques et ses objectifs de poids pour calculer ses besoins caloriques via la formule Mifflin-St Jeor, avec une répartition standard des macros. Visualisation en temps réel avec Plotly et support trilingue via une architecture i18n modulaire.">
               Streamlit web app for personalized nutrition tracking. User provides biometric data and weight targets to compute caloric needs via Mifflin-St Jeor, macros are distributed following a standard breakdown. Features real-time Plotly visualization and trilingual support through a modular i18n architecture backed by a pandas data pipeline.
             </p>
-            <a href="https://mpayanm-mealprep.streamlit.app/" class="btn btn-primary" target="_blank" data-en="Live Demo" data-fr="Démo en direct">Live Demo</a>
-            <a href="https://github.com/MPayanM/mealprep.git" class="btn btn-secondary" target="_blank" data-en="Source Code" data-fr="Code Source">Source Code</a>
+            <div>
+              <a href="https://mpayanm-mealprep.streamlit.app/" class="btn btn-primary" target="_blank" data-en="Live Demo" data-fr="Démo en direct">Live Demo</a>
+              <a href="https://github.com/MPayanM/mealprep.git" class="btn btn-secondary" target="_blank" data-en="Source Code" data-fr="Code Source">Source Code</a>
+            </div>
           </div>
         </div>
       </div>
